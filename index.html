@@ -10,15 +10,27 @@
 			font-family: 'ModernRoman';
 	    	src: url('./Resources/modern-roman.ttf') format("truetype");
 		}
+		
+		@font-face 
+		{
+			font-family: 'ModernRomanBold';
+	    	src: url('./Resources/modern-roman-bold.otf');
+		}
+
+		@font-face 
+		{
+			font-family: 'ModernRomanItalic';
+	    	src: url('./Resources/modern-roman-italic.ttf');
+		}
 
 		h1, h2, h3, h5, h6, p
 		{
 			font-family: 'ModernRoman';
 		}
 
-		h2,h3
+		h3
 		{
-			font-weight: bold;
+			font-family: 'ModernRomanBold';
 		}
 
 	</style>
@@ -33,19 +45,54 @@
 	  <div class="p-5 row justify-content-center">
 		<h1 class="text-center">Sergio Lavao Osorio</h1>
 		<h5 class="text-center">Pontificia Universidad Javeriana, Bogotá, Colombia</h5>
+		<h5 class="text-center">s.lavaoo@javeriana.edu.co</h5>
 	  </div>
 
 	  <div class="row border-bottom border-dark">
 	  	
-		<h3>About me</h3>
+		<h3>Research interests</h3>
 
 	  </div>
 
   	  <div class="row p-3">
 	  	
-		<h5>Electronics Engineer student at Pontificia Universidad Javeriana, </h5>
+		<h5>
+		
+		Robotics, Wireless Networks, and Machine Learning. Interested in developing intelligent systems that can seamlessly integrate with wireless networks and enable robots to operate autonomously in dynamic and uncertain environments.
+
+		</h5>
 
 	  </div>
+
+	  <div class="row border-bottom border-dark">
+	  	
+		<h3>Projects</h3>
+
+	  </div>
+
+  	  <div class="row p-3 border-bottom">
+	  	
+		<h5>
+		PLUMABot: A low cost (10$), 2DoF planar robot controlled using Python based on given Blender coordinates, made with BYJ-28 Stepper motors, 3D printed parts and a ATMEGA-328P microcontroller.
+		</h5>
+		<h5 style="font-family: 'ModernRomanItalic';" class="p-3">
+		knowledge: C, Matlab, Python, Blender, Altium and Control Theory.
+		</h5>
+
+		<div class="col">
+
+		<img width="500" src="./Resources/Images/Plumabot/Planning.png">
+
+		</div>
+
+		<div class="col">
+
+		<img width="600" src="./Resources/Images/Plumabot/Result.gif">
+
+		</div>
+
+	  </div>
+
 
 	</div>
 
